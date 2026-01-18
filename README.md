@@ -2,7 +2,7 @@
 
 Bienvenido al proyecto **Aerolab New**. Este proyecto consiste en el diseño y construcción de un vehículo  nautico controlado mediante Arduino, con componentes mecánicos impresos en 3D.
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 El proyecto está organizado en las siguientes carpetas principales:
 
@@ -15,10 +15,9 @@ El proyecto está organizado en las siguientes carpetas principales:
   - `Soportes`: Elementos de sujeción.
   - `Tapaderas`: Cubiertas para la electrónica.
   - `Accesorios`: Piezas adicionales.
-- **Documentación y Otros**:
-  - `Articulos externos`: Documentación o referencias de componentes comprados.
+- **Documentación y Otros**:  - `Articulos externos`: Documentación o referencias de componentes comprados.
 
-## 🛠️ Hardware Necesario
+## Hardware Necesario
 
 Para ensamblar este proyecto necesitarás los siguientes componentes electrónicos y mecánicos:
 
@@ -37,7 +36,7 @@ Para ensamblar este proyecto necesitarás los siguientes componentes electrónic
 | Enable (PWM) | 9 | Control de velocidad (PWM) |
 | Señal de Control | A0 | Entrada analógica (0-1023) |
 
-## 💻 Software
+## Software
 
 El código principal se encuentra en `Software/AerolabOficialCode/AerolabOficialCode.ino`.
 
@@ -55,14 +54,14 @@ El script controla la dirección y velocidad de los motores basándose en una se
 4. Selecciona el puerto y la placa correcta en el IDE.
 5. Carga el código (`Upload`).
 
-## 🖨️ Fabricación (Impresión 3D)
+## Fabricación (Impresión 3D)
 
 Las carpetas `Proa`, `Popa`, `Centro`, etc., contienen archivos `.3mf`. Estos archivos son proyectos de fabricación 3D que pueden abrirse en "Slicers" como Cura o PrusaSlicer.
 
 - **Material Recomendado**: PLA o PETG para mayor resistencia.
 - **Relleno**: Se recomienda al menos 20% para partes estructurales.
 
-## 🚀 Puesta en Marcha
+## Puesta en Marcha
 
 1. Imprime todas las piezas necesarias de las carpetas de diseño.
 2. Ensambla la estructura utilizando los soportes y tornillería adecuada.
